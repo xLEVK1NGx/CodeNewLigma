@@ -1,0 +1,19 @@
+# Maintainer: LEVK1NG <chebotarenko.lev@proton.me>
+pkgname=otf-codenewligma-nerd
+pkgver=1.0
+pkgrel=1
+pkgdesc='CodeNewRoman Nerd Font with ligatures from FiraCode'
+arch=(any)
+url='https://github.com/xLEVK1NGx/CodeNewLigma/'
+license=('OFL-1.1')
+groups=('nerd-fonts')
+provides=('ttf-font-nerd')
+sha256sums=("45f95dfe6a75f340cdcd936003c06f53129e0b04954b0222904bf7cdbe2d327e")
+
+source=("https://github.com/xLEVK1NGx/CodeNewLigma/releases/download/v${pkgver}/CodeNewLigma-v${pkgver}.zip")
+
+package() {
+	install -dm755 "$pkgdir/usr/share/fonts/OTF/"
+	install -m644 CodeNewLigma/OTF/* "$pkgdir/usr/share/fonts/OTF/" 
+	install -Dm644 CodeNewLigma/LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}
