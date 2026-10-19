@@ -11,6 +11,10 @@ I only added the lig*m*atures from [FiraCode (by Nikita Prokopov)](https://githu
 3. Select all fonts from the OTF/ folder and install them.
 
 ### Linux
+##### Arch
+Download packaging/arch/PKGBUILD and run `makepkg -sic` in the same folder as the PKGBUILD
+
+##### Other distros
 1. Download and extract the zip archive from the [Releases page](https://github.com/xLEVK1NGx/CodeNewLigma/releases)
 2. Run the `install.sh` wizard
 
