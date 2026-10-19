@@ -1,7 +1,7 @@
 # CodeNewLigma Nerd Font 
 ### CodeNewRoman Nerd Font but with ligatures
 Based on [CodeNewRoman by Sam Radian](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CodeNewRoman).  
-I only added the lig*m*atures from [FiraCode (by Nikita Prokopov)](https://github.com/tonsky/FiraCode), using the Ligaturizer app by Ilya Skriblovsky (https://github.com/IlyaSkriblovsky), Navid Rojiani (https://github.com/rojiani) and ToxicFrog (https://github.com/ToxicFrog)).  
+I only added the lig*m*atures from [FiraCode (by Nikita Prokopov)](https://github.com/tonsky/FiraCode), using the Ligaturizer app by [Ilya Skriblovsky](https://github.com/IlyaSkriblovsky), [Navid Rojiani](https://github.com/rojiani) and [ToxicFrog](https://github.com/ToxicFrog)).  
 (i hope that includes everyone who participated in the creation of this font)  
 
 # Installation
